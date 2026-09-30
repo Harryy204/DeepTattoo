@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "src": "assets/images/portfolio/blackwork-01.webp",
+    "style": "blackwork",
+    "artist": "Khoa Tran",
+    "alt": "Blackwork geometric tattoo"
+  },
+  {
+    "id": 2,
+    "src": "assets/images/portfolio/fine-line-01.webp",
+    "style": "fine-line",
+    "artist": "Linh Nguyen",
+    "alt": "Fine line botanical tattoo"
+  },
+  {
+    "id": 3,
+    "src": "assets/images/portfolio/realism-01.webp",
+    "style": "realism",
+    "artist": "Mai Pham",
+    "alt": "Realistic portrait tattoo"
+  },
+  {
+    "id": 4,
+    "src": "assets/images/portfolio/japanese-01.webp",
+    "style": "japanese",
+    "artist": "Khoa Tran",
+    "alt": "Japanese dragon tattoo"
+  },
+  {
+    "id": 5,
+    "src": "assets/images/portfolio/traditional-01.webp",
+    "style": "traditional",
+    "artist": "Khoa Tran",
+    "alt": "Traditional style tattoo"
+  },
+  {
+    "id": 6,
+    "src": "assets/images/portfolio/minimal-01.webp",
+    "style": "minimal",
+    "artist": "Linh Nguyen",
+    "alt": "Minimal line tattoo"
+  },
+  {
+    "id": 7,
+    "src": "assets/images/portfolio/lettering-01.webp",
+    "style": "lettering",
+    "artist": "Linh Nguyen",
+    "alt": "Lettering tattoo"
+  },
+  {
+    "id": 8,
+    "src": "assets/images/portfolio/blackwork-02.webp",
+    "style": "blackwork",
+    "artist": "Khoa Tran",
+    "alt": "Blackwork sleeve"
+  },
+  {
+    "id": 9,
+    "src": "assets/images/portfolio/fine-line-02.webp",
+    "style": "fine-line",
+    "artist": "Linh Nguyen",
+    "alt": "Fine line floral"
+  },
+  {
+    "id": 10,
+    "src": "assets/images/portfolio/realism-02.webp",
+    "style": "realism",
+    "artist": "Mai Pham",
+    "alt": "Realistic animal tattoo"
+  },
+  {
+    "id": 11,
+    "src": "assets/images/portfolio/japanese-02.webp",
+    "style": "japanese",
+    "artist": "Khoa Tran",
+    "alt": "Japanese koi tattoo"
+  },
+  {
+    "id": 12,
+    "src": "assets/images/portfolio/minimal-02.webp",
+    "style": "minimal",
+    "artist": "Linh Nguyen",
+    "alt": "Minimal geometric"
+  }
+]
