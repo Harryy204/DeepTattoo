@@ -1483,7 +1483,7 @@ h3 { font-size: clamp(1.25rem, 2.5vw, 1.5rem); font-weight: 500; }
 
 @media (min-width: 1024px) {
   .studio-pics-grid {
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 
