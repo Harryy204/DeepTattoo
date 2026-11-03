@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://aether.ink/sitemap.xml
+Sitemap: https://deeptattoo.vercel.app/sitemap.xml
