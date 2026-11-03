@@ -1,38 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://aether.ink/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
+    <loc>https://deeptattoo.vercel.app/</loc>
   </url>
   <url>
-    <loc>https://aether.ink/about.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <loc>https://deeptattoo.vercel.app/about.html</loc>
   </url>
   <url>
-    <loc>https://aether.ink/artists.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <loc>https://deeptattoo.vercel.app/artists.html</loc>
   </url>
   <url>
-    <loc>https://aether.ink/portfolio.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <loc>https://deeptattoo.vercel.app/portfolio.html</loc>
   </url>
   <url>
-    <loc>https://aether.ink/services.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <loc>https://deeptattoo.vercel.app/services.html</loc>
   </url>
   <url>
-    <loc>https://aether.ink/booking.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <loc>https://deeptattoo.vercel.app/booking.html</loc>
   </url>
   <url>
-    <loc>https://aether.ink/contact.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <loc>https://deeptattoo.vercel.app/contact.html</loc>
   </url>
 </urlset>
