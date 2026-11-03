@@ -1,48 +1,95 @@
+
 <!DOCTYPE html>
 <html lang="vi">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>DeepTatttoo — Tattoo Studio Cao Cấp</title>
-  <meta name="description" content="DeepTatttoo Tattoo Studio — Nghệ thuật xăm hình cao cấp tại TP. Đà Nẵng. Fine line, blackwork, realism và nhiều hơn nữa." />
-  <meta property="og:title" content="DeepTatttoo — Premium Tattoo Studio" />
-  <meta property="og:description" content="Premium tattoo art in Da Nang City." />
+
+  <!-- SEO GOOGLE -->
+  <title>DeepTattoo Đà Nẵng | Tiệm Xăm Nghệ Thuật An Hải</title>
+  <meta name="description" content="DeepTattoo - Tiệm xăm nghệ thuật tại 126/11 Nguyễn Duy Hiệu, An Hải, Đà Nẵng. Khám phá fine line, blackwork, realism và đặt lịch tư vấn xăm hình." />
+  <meta name="robots" content="index, follow" />
+  <meta name="author" content="DeepTattoo" />
+  <link rel="canonical" href="https://deeptattoo.vercel.app/" />
+
+  <!-- OPEN GRAPH -->
   <meta property="og:type" content="website" />
-  <meta property="og:image" content="/assets/images/logo.webp" />
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>✦</text></svg>" />
+  <meta property="og:site_name" content="DeepTattoo" />
+  <meta property="og:title" content="DeepTattoo | Tattoo Studio Đà Nẵng" />
+  <meta property="og:description" content="Khám phá nghệ thuật xăm hình tại DeepTattoo, 126/11 Nguyễn Duy Hiệu, An Hải, Đà Nẵng." />
+  <meta property="og:url" content="https://deeptattoo.vercel.app/" />
+  <meta property="og:image" content="https://deeptattoo.vercel.app/assets/images/logo.webp" />
+  <meta property="og:locale" content="vi_VN" />
+
+  <!-- FAVICON -->
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%E2%9C%A6%3C/text%3E%3C/svg%3E" />
+
+  <!-- GOOGLE FONTS -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet" />
+
+  <!-- CSS GIỮ NGUYÊN -->
   <link rel="stylesheet" href="css/style.css" />
   <link rel="stylesheet" href="css/responsive.css" />
   <link rel="stylesheet" href="css/animations.css" />
+
+  <!-- GOOGLE LOCAL BUSINESS SCHEMA -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "LocalBusiness",
-    "name": "DeeoTatttoo Tattoo Studio",
-    "description": "Premium tattoo studio in Da Nang",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "126/11 Nguyen Duy Hieu",
-      "addressLocality": "Da Nang",
-      "addressCountry": "VN"
-    },
+    "@type": "TattooParlor",
+    "@id": "https://deeptattoo.vercel.app/#business",
+    "name": "DeepTattoo",
+    "description": "DeepTattoo - Tiệm xăm nghệ thuật tại An Hải, Đà Nẵng.",
+    "url": "https://deeptattoo.vercel.app/",
+    "image": "https://deeptattoo.vercel.app/assets/images/logo.webp",
     "telephone": "+84365840283",
     "email": "tatuthang238@gmail.com",
-    "url": "https://deeptattoo.vercel.app",
-    "openingHours": "Mo-Su 09:00-20:00"
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "126/11 Nguyễn Duy Hiệu",
+      "addressLocality": "An Hải",
+      "addressRegion": "Đà Nẵng",
+      "addressCountry": "VN"
+    },
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday"
+        ],
+        "opens": "09:00",
+        "closes": "20:00"
+      }
+    ],
+    "sameAs": [
+      "https://www.instagram.com/deeptattoo_studio",
+      "https://www.facebook.com/deeptattoo.studio121"
+    ]
   }
   </script>
 </head>
+
 <body>
   <div class="page-loader">
-    <div class="loader-logo"><img src="assets/images/logo.webp" alt="DeeoTatttoo" width="160" height="48" /></div>
+    <div class="loader-logo">
+      <img src="assets/images/logo.webp" alt="DeepTattoo" width="160" height="48" />
+    </div>
   </div>
 
   <header class="site-header">
     <div class="header-inner">
-      <a href="index.html" class="logo"><img src="assets/images/logo.webp" alt="DeeoTatttoo" class="logo-img" width="140" height="52" /></a>
+      <a href="index.html" class="logo">
+        <img src="assets/images/logo.webp" alt="DeepTattoo" class="logo-img" width="140" height="52" />
+      </a>
+
       <nav class="nav-desktop" aria-label="Main">
         <a href="index.html" class="active" data-i18n="nav_home">Trang chủ</a>
         <a href="about.html" data-i18n="nav_about">Giới thiệu</a>
@@ -52,12 +99,14 @@
         <a href="booking.html" data-i18n="nav_booking">Đặt lịch</a>
         <a href="contact.html" data-i18n="nav_contact">Liên hệ</a>
       </nav>
+
       <div class="header-actions">
         <div class="lang-switcher" role="group" aria-label="Language">
           <button class="lang-btn active" data-lang="en" type="button">EN</button>
           <span aria-hidden="true">|</span>
           <button class="lang-btn" data-lang="vi" type="button">VN</button>
         </div>
+
         <button class="menu-toggle" aria-label="Menu" aria-expanded="false" type="button">
           <span></span><span></span><span></span>
         </button>
@@ -76,22 +125,33 @@
   </nav>
 
   <main>
-    <!-- 1. Intro: Logo + Tên tiệm + Giới thiệu sơ bộ -->
+
+    <!-- 1. INTRO -->
     <section class="home-intro">
       <div class="container home-intro-inner">
         <div class="home-intro-brand reveal">
-          <div class="home-logo"><img src="assets/images/logo.webp" alt="DeeoTatttoo" class="home-logo-img" width="200" height="60" /></div>
-          <!-- <h1 class="home-studio-name">DeeoTatttoo</h1> -->
+          <div class="home-logo">
+            <img src="assets/images/logo.webp" alt="DeepTattoo Tattoo Studio Đà Nẵng" class="home-logo-img" width="200" height="60" />
+          </div>
+
+          <!-- H1 SEO: Ẩn khỏi giao diện, giữ nguyên thiết kế -->
+          <h1 class="home-studio-name" style="position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0;">
+            DeepTattoo - Tiệm Xăm Nghệ Thuật Đà Nẵng
+          </h1>
+
           <p class="home-tagline" data-i18n="hero_subtitle">MAKE IT MEAN SOMETHING.</p>
         </div>
+
         <p class="home-intro-text reveal" data-i18n="home_intro_text">
           Studio xăm hình uy tín tại Đà Nẵng. Không gian riêng tư, tiêu chuẩn vệ sinh an toàn, đội ngũ nghệ sĩ chuyên nghiệp.
         </p>
+
         <div class="home-intro-ctas reveal">
           <a href="booking.html" class="btn btn-primary">
             <span data-i18n="hero_cta_book">Đặt Lịch</span>
             <span class="arrow">→</span>
           </a>
+
           <a href="portfolio.html" class="btn btn-outline">
             <span data-i18n="hero_cta_portfolio">Xem Portfolio</span>
           </a>
@@ -99,48 +159,46 @@
       </div>
     </section>
 
-    <!-- 2. Studio Pictures -->
+    <!-- 2. STUDIO PICTURES -->
     <section class="section studio-pics-section">
       <div class="container">
         <div class="section-header reveal">
           <p class="section-label" data-i18n="studio_pics_label">Không gian</p>
           <h2 data-i18n="studio_pics_title">Studio Pictures</h2>
         </div>
+
         <div class="studio-pics-grid">
           <article class="studio-pic-card reveal">
             <div class="studio-pic-img">
-              <img src="assets/images/4.webp" alt="Outdoor view" loading="lazy" />
+              <img src="assets/images/4.webp" alt="Không gian bên ngoài tiệm xăm DeepTattoo tại Đà Nẵng" loading="lazy" />
             </div>
             <h3 data-i18n="studio_outdoor">Outdoor View</h3>
           </article>
+
           <article class="studio-pic-card reveal">
             <div class="studio-pic-img">
-              <img src="assets/images/1.webp" alt="Indoor view" loading="lazy" />
+              <img src="assets/images/1.webp" alt="Không gian bên trong DeepTattoo Tattoo Studio Đà Nẵng" loading="lazy" />
             </div>
             <h3 data-i18n="studio_indoor">Indoor View</h3>
           </article>
+
           <article class="studio-pic-card reveal">
             <div class="studio-pic-img">
-              <img src="assets/images/3.webp" alt="Private tattoo room" loading="lazy" />
+              <img src="assets/images/3.webp" alt="Phòng xăm riêng tại DeepTattoo Đà Nẵng" loading="lazy" />
             </div>
             <h3 data-i18n="studio_tattoo_room">Private Tattoo Room</h3>
           </article>
-          <!-- <article class="studio-pic-card reveal">
-            <div class="studio-pic-img">
-              <img src="https://images.unsplash.com/photo-1568515045052-f9a854d24744?w=800&h=600&fit=crop" alt="Private piercing room" loading="lazy" />
-            </div>
-            <h3 data-i18n="studio_piercing_room">Private Piercing Room</h3>
-          </article> -->
         </div>
       </div>
     </section>
 
-    <!-- 3. Schedule -->
+    <!-- 3. SCHEDULE -->
     <section class="section schedule-section">
       <div class="container">
         <div class="schedule-box reveal">
           <p class="section-label" data-i18n="schedule_label">Giờ mở cửa</p>
           <h2 data-i18n="schedule_title">Schedule</h2>
+
           <ul class="schedule-list">
             <li>
               <span data-i18n="schedule_weekdays">Thứ 2 – Thứ 6</span>
@@ -151,7 +209,9 @@
               <span>09:00 – 20:00</span>
             </li>
           </ul>
+
           <p class="schedule-note" data-i18n="schedule_note">Đặt lịch trước để được phục vụ tốt nhất.</p>
+
           <a href="booking.html" class="btn btn-outline">
             <span data-i18n="hero_cta_book">Đặt Lịch</span>
             <span class="arrow">→</span>
@@ -160,14 +220,16 @@
       </div>
     </section>
 
-    <!-- 4. Tattoo Gallery (home) -->
+    <!-- 4. TATTOO GALLERY -->
     <section class="section home-gallery-section">
       <div class="container">
         <div class="section-header reveal">
           <p class="section-label" data-i18n="home_gallery_label">Tác phẩm</p>
           <h2 data-i18n="home_gallery_title">Tattoo Gallery</h2>
         </div>
+
         <div id="home-gallery-grid" class="home-gallery-grid"></div>
+
         <div class="text-center mt-2 reveal">
           <a href="portfolio.html" class="btn btn-outline">
             <span data-i18n="view_full_portfolio">Xem Toàn Bộ Portfolio</span>
@@ -177,7 +239,7 @@
       </div>
     </section>
 
-    <!-- 5. Meet Artists: CEO featured + team boxes -->
+    <!-- 5. MEET ARTISTS -->
     <section class="section meet-artists-section">
       <div class="container">
         <div class="section-header reveal">
@@ -185,10 +247,10 @@
           <h2 data-i18n="meet_artists_title">Meet Artists</h2>
         </div>
 
-        <!-- CEO / Founder featured (không nằm trong box) -->
+        <!-- CEO / Founder featured -->
         <div id="ceo-featured" class="ceo-featured"></div>
 
-        <!-- Các artist còn lại dạng card -->
+        <!-- Artist cards -->
         <div id="meet-artists-grid" class="meet-artists-grid"></div>
 
         <div class="text-center mt-2 reveal">
@@ -200,13 +262,14 @@
       </div>
     </section>
 
-    <!-- 6. Work Videos (Facebook) -->
+    <!-- 6. WORK VIDEOS -->
     <section class="section work-videos-section">
       <div class="container">
         <div class="section-header reveal">
           <p class="section-label" data-i18n="videos_label">Hậu trường</p>
           <h2 data-i18n="videos_title">Quá trình làm việc</h2>
         </div>
+
         <div id="work-videos-grid" class="work-videos-grid"></div>
       </div>
     </section>
@@ -214,31 +277,50 @@
     <!-- CTA -->
     <section class="cta-section reveal">
       <h2 data-i18n="cta_title">SẴN SÀNG CHO TÁC PHẨM TIẾP THEO?</h2>
+
       <a href="booking.html" class="btn btn-primary">
         <span data-i18n="cta_button">Đặt Lịch Ngay</span>
         <span class="arrow">→</span>
       </a>
     </section>
+
   </main>
 
+  <!-- FOOTER -->
   <footer class="site-footer">
     <div class="container">
       <div class="footer-grid">
+
         <div class="footer-brand">
-          <a href="index.html" class="logo"><img src="assets/images/logo.webp" alt="DeeoTatttoo" class="logo-img" width="140" height="42" /></a>
+          <a href="index.html" class="logo">
+            <img src="assets/images/logo.webp" alt="DeepTattoo" class="logo-img" width="140" height="42" />
+          </a>
+
           <p data-i18n="footer_desc">Studio xăm hình cao cấp. Nghệ thuật vĩnh cửu trên da.</p>
+
           <div class="footer-social">
             <a href="https://www.instagram.com/deeptattoo_studio" target="_blank" rel="noopener" aria-label="Instagram">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1.5" fill="currentColor" stroke="none"/></svg>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <rect x="2" y="2" width="20" height="20" rx="5"/>
+                <circle cx="12" cy="12" r="4"/>
+                <circle cx="17.5" cy="6.5" r="1.5" fill="currentColor" stroke="none"/>
+              </svg>
             </a>
+
             <a href="https://www.facebook.com/deeptattoo.studio121" target="_blank" rel="noopener" aria-label="Facebook">
-              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg>
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/>
+              </svg>
             </a>
+
             <a href="#" onclick="return false" aria-label="TikTok">
-              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-2.88 2.5 2.89 2.89 0 01-2.89-2.89 2.89 2.89 0 012.89-2.89c.28 0 .54.04.79.1v-3.5a6.37 6.37 0 00-.79-.05A6.34 6.34 0 003.15 15.2a6.34 6.34 0 006.34 6.34 6.34 6.34 0 006.34-6.34V8.75a8.18 8.18 0 004.76 1.52V6.84a4.84 4.84 0 01-1-.15z"/></svg>
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-2.88 2.5 2.89 2.89 0 01-2.89-2.89 2.89 2.89 0 012.89-2.89 2.89 2.89 0 012.89 2.89c0 .28-.04.54-.1.79h3.5a6.37 6.37 0 00.05-.79A6.34 6.34 0 0015.2 3.15a6.34 6.34 0 00-6.34 6.34 6.34 0 006.34 6.34h6.45a8.18 8.18 0 00-1.52 4.76h3.43a4.84 4.84 0 01.15-1z"/>
+              </svg>
             </a>
           </div>
         </div>
+
         <div class="footer-col">
           <h4 data-i18n="footer_nav">Điều hướng</h4>
           <a href="index.html" data-i18n="nav_home">Trang chủ</a>
@@ -249,15 +331,18 @@
           <a href="booking.html" data-i18n="nav_booking">Đặt lịch</a>
           <a href="contact.html" data-i18n="nav_contact">Liên hệ</a>
         </div>
+
         <div class="footer-col">
           <h4 data-i18n="footer_contact">Liên hệ</h4>
-          <p data-config-address>123 Nguyễn Huệ, Liên Chiểu, TP. Đà Nắng</p>
+          <p data-config-address>126/11 Nguyễn Duy Hiệu, An Hải, Đà Nẵng</p>
           <a href="tel:+84365840283">+84 36 584 0283</a>
           <a href="mailto:tatuthang238@gmail.com">tatuthang238@gmail.com</a>
         </div>
+
         <div class="footer-col">
           <h4 data-i18n="footer_hours">Giờ mở cửa</h4>
-          <p data-config-hours>Thứ 2 – Chủ nhật: 10:00 – 20:00</p>
+          <p data-config-hours>Thứ 2 – Chủ nhật: 09:00 – 20:00</p>
+
           <h4 style="margin-top:1.5rem" data-i18n="footer_language">Ngôn ngữ</h4>
           <div class="lang-switcher">
             <button class="lang-btn active" data-lang="vi" type="button">VI</button>
@@ -265,13 +350,20 @@
             <button class="lang-btn" data-lang="en" type="button">EN</button>
           </div>
         </div>
+
       </div>
+
       <div class="footer-bottom">
-        <p>© DeeoTatttoo. <a href="https://www.facebook.com/duytam204" target="_blank" rel="noopener" > <span data-i18n="footer_rights">Develop by Harry.</span> </a></p> 
+        <p>© DeepTattoo.
+          <a href="https://www.facebook.com/duytam204" target="_blank" rel="noopener">
+            <span data-i18n="footer_rights">Develop by Harry.</span>
+          </a>
+        </p>
       </div>
     </div>
   </footer>
 
+  <!-- JAVASCRIPT GIỮ NGUYÊN -->
   <script src="js/config.js"></script>
   <script src="js/portfolio-data.js"></script>
   <script src="js/language.js"></script>
